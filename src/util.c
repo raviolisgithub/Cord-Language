@@ -16,7 +16,7 @@ char* read_ascii_file(const char* path) {
     // Reading the file
     char* buf = (char*) malloc(sizeof(char) * (size + 1));
     if (!buf) {
-        print("Could not allocate memory for the file!\n");
+        printf("Could not allocate memory for the file!\n");
         return NULL;
     }
     fread(buf, 1, size, file);

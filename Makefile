@@ -4,7 +4,7 @@ LDFLAGS = -g
 SRC = $(wildcard src/*.c)
 HDR = $(wildcard include/*.h)
 OBJ = $(SRC:.c=.o)
-EXEC = staple
+EXEC = cord
 
 all: $(SRC) $(OBJ) $(EXEC)
 
